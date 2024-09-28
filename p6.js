@@ -8,7 +8,7 @@ const searchField = document.querySelector(".searchField");
 const form = document.querySelector("form");
 
 //// Adding event listener to the form
-form.addEventListener("submit", search);
+form.addEventListener("submit", search); // Used to add search func to search button
 
 //// Default Location
 let target = "Patna"
